@@ -1,2 +1,2 @@
 # qr-generator
-Generating QR Codes by email you define
+Generating QR Codes based on the text you define.
