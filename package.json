@@ -1,0 +1,20 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "Generating QR Codes by email you define",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufcode/qr-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusufcode/qr-generator/issues"
+  },
+  "homepage": "https://github.com/yusufcode/qr-generator#readme"
+}
