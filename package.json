@@ -1,7 +1,7 @@
 {
   "name": "qr-generator",
   "version": "1.0.0",
-  "description": "Generating QR Codes by email you define",
+  "description": "Generating QR Codes based on the text you define.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
