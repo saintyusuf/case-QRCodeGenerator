@@ -1,0 +1,1 @@
+"Can you create a QR code generator? The user should be able to enter a text and generate a QR code. The QR code should be displayed on the screen right after the user hits the button."
