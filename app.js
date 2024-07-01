@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const qr = require('qrcode')
+require("dotenv/config")
 
 /* APP SET */
 app.set('view engine', 'ejs')
@@ -41,7 +42,7 @@ app.post('/generateQR', async (req, res) => {
 })
 
 /* SERVER */
-const port = 3000
+const port = process.env.PORT || 3000
 app.listen(port, (err,data) => {
     if(err){console.log('SERVER ERROR:', err)}
     else{console.log('SERVER LISTEN ON:', port)}
